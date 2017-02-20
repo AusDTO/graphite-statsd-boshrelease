@@ -1,7 +1,7 @@
 ---
 name: postgresql
 
-dependencies: {}
+dependencies: []
 
 files:
   - postgresql/postgresql-9.4.1.tar.gz

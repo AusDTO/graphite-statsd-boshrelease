@@ -1,7 +1,7 @@
 ---
 name: python
 
-dependencies: {}
+dependencies: []
 
 files:
   - python/Python-2.7.9.tar.xz
