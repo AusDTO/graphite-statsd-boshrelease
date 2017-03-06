@@ -30,6 +30,7 @@ case $1 in
     chown vcap:vcap /var/vcap/store/graphite/storage/index
     chown vcap:vcap /var/vcap/store/graphite/storage/rrd
     chown vcap:vcap /var/vcap/store/graphite/storage/whisper
+    chown 755 /var/vcap/jobs/graphite-web/conf/graphite.wsgi
 
     # Copy templated files to the correct locations
     cp /var/vcap/jobs/graphite-web/conf/dashboard.conf /var/vcap/packages/graphite-web/conf/
